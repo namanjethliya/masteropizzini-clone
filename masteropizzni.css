@@ -1,0 +1,1069 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+#header{
+	background:url(images/bg.jpg) no-repeat fixed center/100% 100%;
+}
+
+.container{
+	display: flex;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.headerbottom{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#header .contactbar{
+	display: flex;
+	color: white;
+	justify-content: space-between;
+	border-bottom: 0.5px solid grey;
+	margin-bottom: 12px;
+	padding: 0 5%;
+}
+
+#header .contactbar .detail p .bold{
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+}
+
+#header .contactbar .detail{
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+	margin-bottom: 5px;
+	padding-bottom: 8px;
+}
+
+#header .contactbar .social {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+	padding-bottom: 8px;
+}
+
+#header .contactbar .social ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	font-family: 'Roboto Slab', serif;
+}
+
+#header .contactbar .social ul li a .fa-instagram{
+	padding: 0 20px 0 0;
+}
+
+#header .contactbar .social ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+#header .navbar {
+	display: flex;
+	justify-content: space-between;
+}
+
+#header .navbar .logo img{
+	width: 180px;
+}
+
+#header .navbar .menu ul {
+	list-style-type: none;
+	display: flex;
+}
+
+#header .navbar .menu ul li a {
+	text-decoration: none;
+	padding: 15px;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+#header .navbar .menu ul li a .fa-angle-down{
+	padding-left: 5px;
+}
+
+#header .content{
+	display: flex;
+	flex-direction: column;
+	color: white;
+	margin-top: 60px;
+	width: 50%;
+}
+
+#header .content .subhead{
+	font-family: 'Roboto Slab' , serif;
+	margin-bottom: 15px;
+}
+
+#header .content .sub{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+#header .content .mainhead{
+	font-family: 'Roboto Slab', serif;
+	font-family: 'Ultra', serif;
+	font-size: 60px;
+	margin-bottom: 15px;
+}
+
+#header .headerbottom .content a{
+	text-decoration: none;
+	color: white;
+	background-color: #da3d45;
+	border-radius: 30px;
+	padding: 20px;
+	margin: 50px 0;
+	width: 29%;
+	font-weight: bold;
+	font-family: 'Roboto Slab' , serif;
+}
+
+#aboutus{
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+	width: 90%;
+	margin: 0 auto;
+	padding: 5% 0;
+}
+#aboutus .about{
+	width: 50%;
+}
+#aboutus .aboutimg{
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+#aboutus .about .abt{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 30px;
+	color: grey;
+	padding: 10px 10px 5px 0;
+}
+
+#aboutus .about .welcome{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 50px;
+	padding: 10px 10px 5px 0;
+}
+
+#aboutus .about .aboutmore{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: grey;
+	padding: 10px 10px 5px 0;
+}
+#aboutus .about a{
+	text-decoration: none;
+	color: white;
+	background-color: #da3d45;
+	width: 24%;
+	display: inline-block;
+	border-radius: 30px;
+	padding: 20px;
+	margin: 35px auto;
+	font-weight: bold;
+	font-family: 'Roboto Slab' , serif;
+
+}
+
+#aboutus .aboutimg img{
+	width: 85%;
+	height: 95%;
+}
+
+#freedelivery{
+	background:url(images/gb.jpg) no-repeat fixed center/100% 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	text-shadow: 2px 2px #da3d45;
+	padding: 10%;
+	line-height: 2;
+}
+
+#freedelivery .free {
+	font-family: 'Roboto Slab' , serif;
+	font-size: 30px;
+}
+
+#freedelivery  .deal{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 50px;
+}
+
+#freedelivery a{
+	text-decoration: none;
+	color: white;
+	background-color: #da3d45;
+	display: inline-block;
+	border-radius: 30px;
+	padding: 20px;
+	margin: 35px auto;
+	font-weight: bold;
+	font-family: 'Roboto Slab' , serif;
+}
+
+#numbers{
+	display: flex;
+	justify-content: space-evenly;
+	align-content: center;
+	background-color: #171717;
+	padding: 55px;
+	text-align: center;
+}
+
+#numbers .high{
+	box-shadow: 1px 1px rgb(37, 37, 37);
+	padding: 15px;
+	width: 20%;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#numbers .high .highlight{
+	font-family: 'Roboto Slab' , serif;
+}
+
+#numbers .high .highlightcontent{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: grey;
+}
+
+#orderform{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 5%;
+	align-items: center;
+}
+
+#orderform .mainform .quick{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 30px;
+	margin-bottom: 5px;
+	color: grey;
+}
+#orderform .mainform .orderhead{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 70px;
+	margin-bottom: -20px;
+}
+
+#orderform .mainform .orderhead2{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 70px;
+	margin-bottom: 10px;
+}
+
+#orderform .mainform p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: grey;
+	margin-bottom: 20px;
+}
+
+#orderform .mainform input{
+	border-radius: 30px;
+	border: 1px solid grey;
+	padding: 10px;
+	margin: 5px;
+	width: 40%;
+}
+
+#orderform .mainform .address{
+	border-radius: 30px;
+	border: 1px solid grey;
+	padding: 10px;
+	margin: 5px;
+	width: 82%;
+}
+
+#orderform .mainform select{
+	border-radius: 30px;
+	border: 1px solid grey;
+	padding: 10px;
+	margin: 5px;
+	width: 40%;
+	background-color: white;
+}
+
+#orderform .mainform #pizzatype{
+	border-radius: 30px;
+	border: 1px solid grey;
+	padding: 10px;
+	margin: 5px;
+	width: 82%;
+	background-color: white;
+}
+
+#orderform .mainform .a{
+	text-decoration: none;
+	color: white;
+	background-color: #da3d45;
+	display: inline-block;
+	border-radius: 30px;
+	padding: 20px;
+	width: 82%;
+	margin-top: 15px;
+	font-weight: bold;
+	font-family: 'Roboto Slab' , serif;
+}
+
+#pizzamenu{
+	display: flex;
+	flex-direction: column;
+	background:url(images/gb.jpg) no-repeat center center/100% 100%;
+	padding: 72px;
+	margin: 0 auto;
+}
+
+#pizzamenu .menupizza {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: 3px dashed white;
+	color: white;
+	margin-bottom: 20px;
+}
+
+#pizzamenu .menupizza .menuhead{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+#pizzamenu .menupizza .welcomemenuhead{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 70px;
+}
+#pizzamenu .menupizza .welcomemenuhead2{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 70px;
+	margin-bottom: 45px;
+}
+
+#pizzamenu .typepizza{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border-bottom: 3px dashed white;
+	padding: 20px;
+}
+
+#pizzamenu .typepizza .pizzaimage img{
+	width:100px ;
+	height: 100px;
+}
+
+#pizzamenu .typepizza .pizzadetail{
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+#pizzamenu .typepizza .pizzadetail .pizzadetailhead{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 30px;
+	color: white;
+}
+
+#pizzamenu .typepizza .pizzadetail p{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+#pizzamenu .typepizza .pizzarate{
+	display: flex;
+	align-items: center;
+}
+
+#pizzamenu .typepizza .pizzarate h1{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 50px;
+	color: white;
+}
+
+#pizzamenu2{
+	display: flex;
+	flex-direction: column;	
+	padding: 72px;
+	margin: 0 auto;
+}
+
+#pizzamenu2 .menupizza2 {
+	display: flex;
+	flex-direction: column;	
+	justify-content: space-around;
+	align-items: center;
+	color: black;
+	margin-bottom: 20px;
+}
+
+#pizzamenu2 .menupizza2 .menuhead2{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 30px;
+	margin-bottom: 10px;
+	color: grey;
+}
+
+#pizzamenu2 .menupizza2 .welcomemenuhead2{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 70px;
+}
+#pizzamenu2 .menupizza2 .welcomemenuhead22{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 70px;
+	margin-bottom: 45px;
+}
+
+#pizzamenu2 .typepizza2{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 20px;
+	width: 33%;
+}
+
+#pizzamenu2 .typepizza2 .pizzaimage2 img{
+	width:150px ;
+	height: 150px;
+}
+
+#pizzamenu2 .typepizza2 .pizzadetail2{
+	display: flex;
+	flex-direction: column;
+	padding: 11px;
+	align-items: center;
+}
+
+#pizzamenu2 .typepizza2 .pizzadetail2 .pizzadetailhead2{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 30px;
+	color: black;
+	text-align: center;
+}
+
+#pizzamenu2 .typepizza2 .pizzadetail2 p{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 20px;
+	color: grey;
+	text-align: center;
+}
+
+#pizzamenu2 .typepizza2 .pizzarate2{
+	display: flex;
+	align-items: center;
+}
+
+#pizzamenu2 .typepizza2 .pizzarate2 h1{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 50px;
+	color: black;
+}
+.pizzaBundle {
+  display: flex;
+  flex-wrap: wrap;
+}
+#footer{
+	background-color: #151515;
+	margin: 0 auto;
+}
+#footer .footer1{
+	display: flex;
+	justify-content: space-between;
+	padding: 90px 90px 50px 90px;
+	border-bottom: 1px solid white;
+}
+#footer .footer1 .aboutfooter{
+	display: flex;
+	flex-direction: column;
+	color: white;
+	width: 50%;
+}
+#footer .footer1 .aboutfooter .footeraboutus{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+#footer .footer1 .aboutfooter .detail{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+#footer .footer1 .aboutfooter .days{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 20px;
+}
+
+#footer .footer1 .footerdetail{
+	display: flex;
+	justify-content: space-evenly;
+	width: 50%;
+}
+#footer .footer1 .footerdetail .quicklinks{
+	line-height: 2;
+}
+#footer .footer1 .footerdetail .quicklinks h1{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 30px;
+	color: white;
+	margin-top: -10px;
+}
+#footer .footer1 .footerdetail .quicklinks ul{
+	list-style-type: none;
+}
+#footer .footer1 .footerdetail .quicklinks ul li a{
+	text-decoration: none;
+	color: white;
+}
+#footer .footer1 .footerdetail .recepies{
+	line-height: 2;
+}
+#footer .footer1 .footerdetail .recepies h1{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 30px;
+	color: white;
+	margin-top: -10px;
+}
+#footer .footer1 .footerdetail .recepies ul{
+	list-style-type: none;
+}
+#footer .footer1 .footerdetail .recepies ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+#footer .fa-angle-right{
+	color: white;
+	margin-right: 4px;
+}
+
+#footer .footer1 .footerdetail .contactus{
+	line-height: 2;
+}
+#footer .footer1 .footerdetail .contactus h1{
+	font-family: 'Roboto Slab' , serif;
+	font-size: 30px;
+	color: white;
+	margin-top: -10px;
+}
+#footer .footer1 .footerdetail .contactus ul{
+	list-style-type: none;
+}
+#footer .footer1 .footerdetail .contactus ul li a{
+	text-decoration: none;
+	color: white;
+}
+#footer .footer1 .footerdetail .contactus ul li:last-of-type{
+	padding-top:15px ;
+} 
+
+#footer .fa-phone, #footer .fa-envelope,
+#footer .fa-location-dot{
+	color: white;
+	margin-right: 4px;
+}
+#footer .fa-facebook-square, #footer .fa-google-plus-g, #footer .fa-instagram{
+	color: white;
+	margin-right: 8px;
+}
+#footer .fa-google-plus-g{
+	color: white;
+}
+#footer .fa-instagram{
+	color: white;
+}
+
+#footer .footer2 h1{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	padding: 30px;
+}
+
+@media all and (max-width: 1300px){
+	#header .headerbottom .content a{
+		padding: 15px;
+		text-align: center;
+		width: 35%;
+	}
+	#aboutus .about a{
+		padding: 15px;
+		text-align: center;
+		width: 30%;
+	}
+	#freedelivery a{
+		padding: 10px;
+		text-align: center;
+		width: 15%;
+	}
+}
+
+@media all and (max-width: 1200px){
+	#footer .footer1 .aboutfooter{
+			width: 45%;
+			padding-right: 10px;
+		}
+	#footer .footer1 .footerdetail{
+			width: 55%;
+		}
+	#footer .footer1 .aboutfooter .footeraboutus{
+			font-size: 28px;
+		}
+	#footer .footer1 .aboutfooter .detail{
+			font-size: 14px;
+		}
+	#footer .footer1 .aboutfooter .days{
+			font-size: 17px;
+		}
+	#footer .footer1 .footerdetail{
+			justify-content: space-evenly;
+		}
+}
+
+@media all and (max-width: 1100px){
+	#footer .footer1 .footerdetail .quicklinks{
+	font-size: 15px;
+	}
+	#footer .footer1 .footerdetail .recepies{
+	font-size: 15px;
+	}
+#footer .footer1 .footerdetail .contactus{
+	font-size: 15px;
+	}
+#footer .footer1 .aboutfooter .detail{
+		font-size: 12px;
+	}
+#footer .footer1 .aboutfooter .days{
+		font-size: 15px;
+	}
+#footer .footer1 .aboutfooter{
+		width: 40%;
+		padding-right: 10px;
+	}
+	#footer .footer1 .footerdetail{
+		width: 60%;
+	}
+}
+
+@media all and (max-width: 1000px){
+	#aboutus .aboutimg img{
+			height: 85%;
+	}
+	#header .contactbar .detail p{
+	padding: 0 15px 0 0;
+	}
+	#footer .footer1 .aboutfooter{
+			width: 35%;
+			padding-right: 10px;
+	}
+	#footer .footer1 .footerdetail{
+			width: 65%;
+	}
+	#footer .footer1 .aboutfooter .days{
+			font-size: 15px;
+	}
+	#aboutus .aboutimg img{
+				height: 85%;
+	}
+	#header .headerbottom .content a{
+		text-align: center;
+		width: 40%;
+	}
+	#aboutus .about a{
+		text-align: center;
+		width: 35%;
+	}
+	#freedelivery a{
+		text-align: center;
+		width: 15%;
+	}
+}
+
+@media all and (max-width: 900px){
+	#aboutus, #orderform, #footer .footer1{
+		flex-direction: column;
+	}
+	#aboutus, #orderform, #footer .footer1 .aboutfooter{
+		text-align: center;
+	}
+	#orderform{
+		padding-left: 0;
+	}
+
+	#aboutus .about, #aboutus .aboutimg, #footer .footer1 .aboutfooter, #footer .footer1 .footerdetail{
+		width: 100%;
+	}
+	#aboutus .about, #aboutus .aboutimg{
+		display: block;
+		text-align: center;
+	}
+	#orderform .formimg{
+		margin-left: 29%;
+	}
+	#orderform .mainform .quick{
+		margin-top: 15px;
+	}
+	#header .content{
+		margin-top: 40px;
+	}
+	#freedelivery{
+		padding:  5%;
+	}
+	#header .headerbottom .content a{
+		text-align: center;
+		width: 45%;
+	}
+	#aboutus .about a{
+		text-align: center;
+		width: 25%;
+	}
+	#freedelivery a{
+		text-align: center;
+		width: 15%;
+	}
+	#aboutus .about .welcome{
+		font-size: 65px;
+	}
+	#pizzamenu2 .typepizza2{
+		width: 50%;
+	}
+	#footer .footer1 .aboutfooter .days{
+		padding-bottom: 15px;
+	}
+}
+@media all and (max-width: 800px){
+	#pizzamenu2 .pizzaBundle{
+		flex-direction: column;
+		flex-wrap: unset;
+	}
+	#pizzamenu2 .typepizza2{
+		padding: 0;
+		width: 100%;
+		flex-direction: row;
+		justify-content: unset;
+	}
+
+	#orderform .mainform p{
+		padding: 0 10px;
+	}
+	#header .contactbar .social, #header .navbar .menu{
+		display: none;
+	}
+	#header .headerbottom .content a{
+		width: 50%;
+		padding: 15px;
+	}
+	#freedelivery a{
+		padding: 13px;
+	}
+	#header .content .mainhead{
+		font-size: 55px;
+	}
+	#header .content .sub{
+		font-size: 16px;
+		margin-bottom: 0;
+	}
+	#header .contactbar .detail{
+		justify-content: center;
+		width: 100%;
+	}
+	#orderform .formimg{
+		display: none;
+	}
+	#pizzamenu2 .typepizza2 .pizzadetail2{
+		align-items: unset;
+	}
+	#pizzamenu2 .typepizza2 .pizzadetail2 p{
+		text-align: unset;
+	}
+	#pizzamenu .typepizza .pizzaimage img{
+		width: 150px;
+		height: 150px;
+	}
+	#orderform .mainform p{
+		padding: 0 45px;
+	}
+	#freedelivery a{
+		padding: 10px;
+		width: 20%;
+	}
+	#pizzamenu .menupizza .welcomemenuhead, #pizzamenu .menupizza .welcomemenuhead2, #pizzamenu2 .menupizza2 .welcomemenuhead2, #pizzamenu2 .menupizza2 .welcomemenuhead22{
+		font-size: 60px;
+	}
+}
+
+@media all and (max-width: 700px){
+	#pizzamenu .menupizza, #pizzamenu2 .menupizza2{
+		text-align: center;
+	}
+	#footer .footer1 .footerdetail{
+		flex-direction: column;
+	}
+	
+	#pizzamenu .typepizza .pizzadetail .pizzadetailhead, #pizzamenu2 .typepizza2 .pizzadetail2 .pizzadetailhead2{
+		font-size: 27px;
+	}
+	#pizzamenu .typepizza .pizzadetail p, #pizzamenu2 .typepizza2 .pizzadetail2 p{
+		font-size: 16px;
+	}
+	#pizzamenu .typepizza{
+		padding: 10px;
+	}
+	#footer .footer1 .aboutfooter{
+		text-align: unset;
+	}
+	#header .headerbottom .content a{
+		width: 55%;
+		padding: 15px;
+	}
+}
+@media all and (max-width: 650px){
+	#header .content{
+		width: 100%;
+	}
+	#header .headerbottom .content a{
+		width: 30%;
+	}
+	#aboutus .about a{
+		width: 30%;
+	}
+}
+@media all and (max-width: 600px){
+	#numbers{
+		padding: 30px;
+	}
+	#numbers .high .highlightcontent{
+		font-size: 18px;
+	}
+	#pizzamenu .typepizza, #pizzamenu2 .typepizza2{
+		flex-direction: column;
+		text-align: center;
+	}
+	#pizzamenu2 .menupizza2 .welcomemenuhead2, #pizzamenu2 .menupizza2 .welcomemenuhead22{
+		font-size: 64px;
+	}
+	#pizzamenu .menupizza .welcomemenuhead, #pizzamenu .menupizza .welcomemenuhead2{
+		font-size: 64px;
+	}
+	#freedelivery .deal{
+		font-size: 45px;
+	}
+	#header .headerbottom .content a{
+		width: 35%;
+	}
+	#header .contactbar .detail{
+		flex-direction: column;
+		text-align: center;
+		margin: 5px 0;
+	}
+	#header .contactbar .detail p .bold{
+		display: none;
+	}
+}
+@media all and (max-width: 550px){
+	#header .headerbottom .content a	{
+		width: 40%;
+	}
+	#aboutus .about a{
+		width: 35%;
+	}
+}
+@media all and (max-width: 500px){
+	#numbers{
+		align-items: center;
+		flex-direction: column;
+	}
+	#numbers .high{
+		padding: 15px 90px;
+		border-bottom: 1px solid #484747;
+		box-shadow: none;
+		font-size: 20px;
+	}
+	#aboutus .about a{
+		width: 40%;
+	}
+	#freedelivery a{
+		width: 25%;
+	}
+	#orderform .mainform .orderhead, #orderform .mainform .orderhead2{
+		font-size: 60px;
+	}
+	#pizzamenu .menupizza .welcomemenuhead, #pizzamenu .menupizza .welcomemenuhead2{
+		font-size: 44px;
+	}
+	#pizzamenu2 .menupizza2 .welcomemenuhead2, #pizzamenu2 .menupizza2 .welcomemenuhead22{
+		font-size: 44px;
+	}
+	#pizzamenu .typepizza .pizzadetail .pizzadetailhead, #pizzamenu2 .typepizza2 .pizzadetail2 .pizzadetailhead2{
+		margin-bottom: 5px;
+	}
+	#pizzamenu .typepizza .pizzarate h1, #pizzamenu2 .typepizza2 .pizzarate2 h1{
+		font-size: 45px;
+	}
+	#aboutus .about .welcome{
+		font-size: 55px;
+	}
+}
+
+@media all and (max-width: 450px){
+	#header .headerbottom .content a	{
+		width: 45%;
+	}
+	#aboutus .about a{
+		width: 40%;
+	}
+	#freedelivery .deal{
+		font-size: 39px;
+	}
+	#pizzamenu .menupizza .welcomemenuhead, #pizzamenu .menupizza .welcomemenuhead2{
+		font-size: 36px;
+	}
+	#pizzamenu2 .menupizza2 .welcomemenuhead2, #pizzamenu2 .menupizza2 .welcomemenuhead22{
+		font-size: 36px;
+	}
+}
+
+@media all and (max-width: 400px){
+	#header .content .subhead{
+		font-size: 25px;
+	}
+	#header .content .mainhead{
+		font-size: 45px;
+	}
+	#header .content .sub{
+		font-size: 15px;
+	}
+	#header .headerbottom .content a{
+		width: 50%;
+	}
+	#aboutus .about .welcome{
+		font-size: 45px;
+	}
+	#aboutus .about .aboutmore{
+		font-size: 16px;
+	}
+	#freedelivery .deal{
+		font-size: 36px;
+	}
+	#freedelivery a{
+		width: 28%;
+	}
+	#orderform .mainform .orderhead, #orderform .mainform .orderhead2{
+		font-size: 50px;
+	}
+	#pizzamenu .menupizza .welcomemenuhead, #pizzamenu .menupizza .welcomemenuhead2,#pizzamenu2 .menupizza2 .welcomemenuhead2, #pizzamenu2 .menupizza2 .welcomemenuhead22{
+		font-size: 35px;
+	}
+	#footer .footer1{
+		padding: 40px;
+	}
+	#freedelivery .free{
+		font-size: 27px;
+	}
+	#pizzamenu .typepizza .pizzarate h1, #pizzamenu2 .typepizza2 .pizzarate2 h1{
+		font-size: 40px;
+	}
+}
+
+@media all and (max-width: 380px){
+	#header .content .subhead{
+		font-size: 22px;
+	}
+	#header .content .mainhead{
+		font-size: 42px;
+	}
+	#header .headerbottom .content a{
+		width: 55%;
+	}
+	#aboutus .about .welcome{
+		font-size: 40px;
+	}
+	#aboutus .about a{
+		width: 45%;
+	}
+	#freedelivery .free{
+		font-size: 22px;
+	}
+	#freedelivery .deal{
+		font-size: 30px;
+	}
+	#orderform .mainform .orderhead, #orderform .mainform .orderhead2{
+		font-size: 45px;
+	}
+	#pizzamenu .menupizza .menuhead,#pizzamenu2 .menupizza2 .menuhead2{
+		font-size: 25px;
+	}
+	#pizzamenu .menupizza .welcomemenuhead, #pizzamenu .menupizza .welcomemenuhead2, #pizzamenu2 .menupizza2 .welcomemenuhead2, #pizzamenu2 .menupizza2 .welcomemenuhead22{
+		font-size: 28px;
+	}
+}
+
+@media all and (max-width: 340px){
+	#header .content .subhead{
+		font-size: 20px;
+	}
+	#header .headerbottom .content a{
+		width: 60%;
+	}
+	#aboutus .about .welcome{
+		font-size: 35px;
+	}
+	#aboutus .about a{
+		width: 50%;
+	}
+	#freedelivery a{
+		width: 35%;
+	}
+	#pizzamenu .menupizza .menuhead,#pizzamenu2 .menupizza2 .menuhead2{
+		font-size: 20px;
+	}
+	#pizzamenu .menupizza .welcomemenuhead, #pizzamenu .menupizza .welcomemenuhead2, #pizzamenu2 .menupizza2 .welcomemenuhead2, #pizzamenu2 .menupizza2 .welcomemenuhead22{
+		font-size: 25px;
+	}
+	#orderform .mainform .a{
+		padding: 15px;
+	}
+}
+
+@media all and (max-width: 320px){
+	#header .content .subhead{
+		font-size: 19px;
+	}
+	#header .content .mainhead{
+		font-size: 38px;
+	}
+	#header .headerbottom .content a{
+		width: 65	%;
+	}
+	#orderform .mainform .quick{
+		font-size: 15px;
+	}
+	#orderform .mainform .orderhead, #orderform .mainform .orderhead2{
+		40px
+	}
+	#pizzamenu .menupizza .welcomemenuhead, #pizzamenu .menupizza .welcomemenuhead2, #pizzamenu2 .menupizza2 .welcomemenuhead2, #pizzamenu2 .menupizza2 .welcomemenuhead22{
+		font-size: 24px;
+	}
+}
